@@ -4,6 +4,8 @@ import java.util.LinkedList;
 
 /**
  * Created by yan.braslavski on 1/24/16.
+ *
+ * Represents a graph node
  */
 public class Vertex {
     private final int mX;
@@ -56,10 +58,6 @@ public class Vertex {
 
     public String getName() {
         return mName;
-    }
-
-    public void setName(String name) {
-        mName = name;
     }
 
     public boolean isVisited() {

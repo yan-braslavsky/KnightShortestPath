@@ -7,6 +7,8 @@ import java.util.Queue;
 
 /**
  * Created by yan.braslavski on 1/24/16.
+ *
+ * Algorithm encapsulated into a class , for easier interchangeability.
  */
 public class BfsAlgorithm {
 
